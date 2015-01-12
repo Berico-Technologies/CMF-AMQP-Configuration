@@ -17,8 +17,7 @@ More importantly, the steps in this tutorial need to be performed on every node 
   b.  Instruct the Erlang kernel to use the following port range (9100-9105) for the Erlang Distribution protocol:
 
   ```[{kernel, [ {inet_dist_listen_min, 9100}, 
-                {inet_dist_listen_max, 9105} ]}].
-```
+                {inet_dist_listen_max, 9105} ]}].```
 
   > RabbitMQ's configuration is quite literally an Erlang *tuple*.  That's the reason why it has a *funky* syntax.
 
